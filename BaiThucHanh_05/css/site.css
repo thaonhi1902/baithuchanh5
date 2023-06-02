@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:#000;
+}
+:root {
+    --container-width: 1150px;
+    --container-left-width:750px;
+    --container-right-width: 360px;
+    --color-orange: #FAA21B;
+    --color-gray: #646464;
+}
+img {
+    width:70%;
+    height: auto;
+}
+a {
+    text-decoration: none;
+}
+.clearfix {
+    clear: both;
+}
+
+.container {
+    display: flex;
+}
+.container-full {
+    margin-top: 2%;
+    color: white;
+}
+.bg-orange {
+}
+.bg-black {
+    border-top: 5px solid orange;
+
+    background-color: #000;
+}
+
+/* HEADER */
+#header {    
+    display: flex;
+    justify-content: end;
+}
+#logo {
+    margin-right: 400px;
+}
+#hashtag {
+    display: flex;
+    
+}
+#hashtag ul {    
+    display: flex;
+}
+#hashtag li {
+    display: flex;
+    margin: 0 10px 0 10px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    border: 1px solid orange;
+    border-radius: 7px;
+}
+#hashtag span {
+    color: orange;
+}
+
+/* MENU */
+#menu {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, #a6a351, #FFA500);
+}
+#menu > ul {
+    display: flex;
+}
+#menu > ul > li {
+    display: flex;
+    margin-left: 120px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+#menu > ul > li > a{
+    color: white;
+}
+#menu > ul > li:hover {
+    
+}
+/* CONTENT LAYOUT */
+.content-left {
+}
+.content-right {
+    margin-left: 50px;
+}
+.row {
+    display: flex;
+    margin-left: 180px;
+}
+.row-1{
+    margin-right: 100px;
+}
+.row-2{
+    display: flex;
+    margin-right: 100px;
+}
+.column-1, .column-2, .column-3, .column-4, .column-5 {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.column-1 {
+}
+.column-2 {
+}
+.column-3 {
+}
+
+/* FOOTER */
+#footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.column-4{
+    margin-left: 10px;
+}
+.column-5{
+    margin-left: 90px;
+}
+#word{
+    color: white;
+    line-height: 2;
+}
+
+/* ANOTHER STYLES */
+.section-title {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
